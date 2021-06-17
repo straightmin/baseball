@@ -8,11 +8,9 @@ import main.java.Parser;
 
 class ParserTest {
 
-	Parser parser = new Parser();
-
 	@Test
 	void testParsing() {
-		assertArrayEquals(new int[] { 1, 2, 3 }, parser.parsing("123"));
+		assertArrayEquals(new int[] { 1, 2, 3 }, Parser.parsing("123"));
 	}
 
 }

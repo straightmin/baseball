@@ -6,7 +6,7 @@ package main.java;
 
 public class Parser {
 
-	public int[] parsing(String str) {
+	static public int[] parsing(String str) {
 		int[] result = new int[3];
 
 		int num = Integer.parseInt(str);
