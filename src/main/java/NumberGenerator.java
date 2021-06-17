@@ -12,6 +12,7 @@ public class NumberGenerator {
 	private int[] numbers = { 0, 0, 0 };
 	private Random rand = new Random();
 
+	// 3개 숫자 생성
 	public int[] getNumbers() {
 		while(hasOverlap(numbers)) {	// 중복이 있을경우 계속 반복
 			numbers = generateNumbers(numbers);
